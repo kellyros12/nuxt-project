@@ -2,6 +2,8 @@
 
 ## Build Setup
 
+[Checkout the website here!](https://tourmaline-croissant-cd6c8b.netlify.app/)
+
 ```bash
 # install dependencies
 $ yarn install
