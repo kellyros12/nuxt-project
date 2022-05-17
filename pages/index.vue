@@ -41,6 +41,15 @@ export default {
       })
       .finally(() => this.loading = false)
     }
+  },
+  head() {
+    return {
+     meta: [
+      {
+        hid: 'Default query page, shows results upon submit',
+      }
+     ]
+    }
   }
 }
 </script>

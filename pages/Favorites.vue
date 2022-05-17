@@ -29,6 +29,16 @@ export default {
         {original_title: "Doctor Strange in the Multiverse of Madness", poster_path: "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg", release_date: "2022-05-04"}
       ]
     }
+  },
+  head() {
+    return {
+      title: 'Favorites',
+      meta: [
+        {
+          hid: "A list of recent favorite movies of the developer",
+        }
+      ]
+    }
   }
 }
 </script>
